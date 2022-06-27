@@ -1,1 +1,2 @@
-# Fitness_Tracker
+# Fittness_Tracker
+
