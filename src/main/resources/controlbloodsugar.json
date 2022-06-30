@@ -1,0 +1,23 @@
+{
+  "blogId": 1,
+  "title": "control blood sugar",
+  "author": "Dr. amish mehra ,MBBS AIMS 2013",
+  "content": {
+    "detail": "High blood sugar, also known as hyperglycemia, is associated with diabetes and prediabetes. Prediabetes is when your blood sugar is high, but not high enough to be classified as diabetes.Your body usually manages your blood sugar levels by producing insulin, a hormone that allows your cells to use the circulating sugar in your blood. As such, insulin is the most important regulator of blood sugar levels .However, multiple factors can impair blood sugar management and lead to hyperglycemia.Internal causes for high blood sugar include when your liver produces too much glucose, your body makes too little insulin, or your body can’t effectively use insulin. The latter is known as insulin resistance .External factors include dietary choices, certain medications, a sedentary lifestyle, and stress.The Centers for Disease Control and Prevention (CDC) reports that 13% of U.S. adults live with diabetes and that another 34.5% have prediabetes. This means that close to 50% of all U.S. adults have diabetes or prediabetes .Blood sugar management is especially important for people with diabetes, as chronically high blood sugar levels can lead to limb and life threatening complications.",
+    "step": {
+      "head": "Here are 2 easy and evidence-backed ways to naturally lower your blood sugar levels",
+      "ways": [
+        {
+          "heading": "Exercise regularly",
+          "desc": "Regular exercise can help you reach and maintain a moderate weight and increase insulin sensitivity .Increased insulin sensitivity means your cells can more effectively use the available sugar in your bloodstream.Exercise also helps your muscles use blood sugar for energy and muscle contraction .If you have problems with blood sugar management, consider routinely checking your levels before and after exercising. This will help you learn how you respond to different activities and keep your blood sugar levels from getting too high or low.What’s more, researchers recommend doing so-called “exercise snacks” to lower blood sugar and prevent the damage that sitting all day can do.Exercise snacks simply mean that you break up your sitting time every 30 minutes for just a few minutes throughout the day. Some of the recommended exercises include light walking or simple resistance exercises like squats or leg raises.Other useful forms of exercise include weightlifting, brisk walking, running, biking, dancing, hiking, swimming, and more. In fact, any activity that regularly gets you up and moving — regardless of the intensity — beats a sedentary lifestyle.Plus, know that if you have trouble dedicating longer periods to exercise throughout the week, you can still gain many benefits by doing shorter sessions. For example, try aiming for 10-minute exercise sessions 3 times a day for 5 days, with the goal of 150 minutes per week."
+        },
+        {
+          "heading": "Manage your carb intake",
+          "desc": "Your carb intake strongly influences your blood sugar levels .Your body breaks carbs down into sugars, mainly glucose. Then, insulin helps your body use and store it for energy.When you eat too many carbs or have insulin-function problems, this process fails, and blood glucose levels can rise.That’s why the American Diabetes Association (ADA) recommends that people with diabetes manage their carb intake by counting carbs and being aware of how many they need .Some studies find that this can help you plan your meals appropriately, further improving blood sugar management.Many studies also show that eating a low carb diet helps reduce blood sugar levels and prevent blood sugar spikes.It’s important to note that low carb diets and no carb diets are not the same.You can still eat some carbs when monitoring your blood sugar. However, prioritizing whole grains over processed ones and refined carbs provides greater nutritional value while helping decrease your blood sugar levels."
+        }
+      ]
+    }
+  },
+  "datePublished": "28/06/2022",
+  "dateModified": "28/06/2022"
+}

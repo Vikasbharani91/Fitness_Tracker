@@ -1,0 +1,38 @@
+[
+  {
+    "consultantId": 1,
+    "name": "ashok dinda",
+    "age": "26",
+    "description": "certified trainer and nutritionist with over 5yoe"
+  },
+  {
+    "consultantId": 2,
+    "name": "nalini thapa",
+    "age": "28",
+    "description": "certified gym trainer with over 6 yoe"
+  },
+  {
+    "consultantId": 3,
+    "name": "manoj desai",
+    "age": "29",
+    "description": "certified nutritionist with over 7yoe"
+  },
+  {
+    "consultantId": 4,
+    "name": "rajshekharan ",
+    "age": "22",
+    "description": "certified physiotherapy expert with over 10 yoe"
+  },
+  {
+    "consultantId": 5,
+    "name": "assema sheikh",
+    "age": "24",
+    "description": "certified yoga instructor with over 4yoe"
+  },
+  {
+    "consultantId": 6,
+    "name": "vicky nayal",
+    "age": "28",
+    "description": "certified sports nutritionist with over 9yoe"
+  }
+]

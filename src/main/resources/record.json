@@ -1,0 +1,60 @@
+{
+  "healthdata": [
+    {
+      "steps": "2000",
+      "weight": "66.0 kg",
+      "bpi": "23.7",
+      "bloodGlucose": "99 mg/dL",
+      "heartrate": "70 bpm",
+      "bp": "90/60 mmHg"
+    },
+    {
+      "steps": "2200",
+      "weight": "66.3 kg",
+      "bpi": "23.9",
+      "bloodGlucose": "102 mg/dL",
+      "heartrate": "74 bpm",
+      "bp": "91/61 mmHg"
+    },
+    {
+      "steps": "4386",
+      "weight": "66.5 kg",
+      "bpi": "24.1",
+      "bloodGlucose": "102 mg/dL",
+      "heartrate": "77 bpm",
+      "bp": "92/62 mmHg"
+    },
+    {
+      "steps": "2453",
+      "weight": "65.9 kg",
+      "bpi": "23.5",
+      "bloodGlucose": "101 mg/dL",
+      "heartrate": "72 bpm",
+      "bp": "95/62 mmHg"
+    },
+    {
+      "steps": "4357",
+      "weight": "66.6 kg",
+      "bpi": "24.2",
+      "bloodGlucose": "98 mg/dL",
+      "heartrate": "73 bpm",
+      "bp": "90/60 mmHg"
+    },
+    {
+      "steps": "3542",
+      "weight": "66.1 kg",
+      "bpi": "23.1",
+      "bloodGlucose": "97 mg/dL",
+      "heartrate": "76 bpm",
+      "bp": "97/66 mmHg"
+    },
+    {
+      "steps": "4632",
+      "weight": "66.2 kg",
+      "bpi": "23.2",
+      "bloodGlucose": "99 mg/dL",
+      "heartrate": "74 bpm",
+      "bp": "95/64 mmHg"
+    }
+  ]
+}
