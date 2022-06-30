@@ -1,7 +1,7 @@
-package com.example.health.Health_404BE.service;
+package com.smart_health.service;
 
-import com.example.health.Health_404BE.entity.User;
-import com.example.health.Health_404BE.repository.UserRepository;
+import com.smart_health.entity.User;
+import com.smart_health.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,7 +1,7 @@
-package com.example.health.Health_404BE.config;
+package com.smart_health.config;
 
-import com.example.health.Health_404BE.filter.JwtFilter;
-import com.example.health.Health_404BE.service.CustomUserDetailsService;
+import com.smart_health.filter.JwtFilter;
+import com.smart_health.service.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

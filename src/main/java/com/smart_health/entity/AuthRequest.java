@@ -1,4 +1,4 @@
-package com.example.health.Health_404BE.entity;
+package com.smart_health.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

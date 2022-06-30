@@ -1,7 +1,7 @@
-package com.example.health.Health_404BE.filter;
+package com.smart_health.filter;
 
-import com.example.health.Health_404BE.service.CustomUserDetailsService;
-import com.example.health.Health_404BE.util.JwtUtil;
+import com.smart_health.service.CustomUserDetailsService;
+import com.smart_health.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;

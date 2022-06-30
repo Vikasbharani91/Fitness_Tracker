@@ -1,7 +1,7 @@
-package com.example.health.Health_404BE.controller;
+package com.smart_health.controller;
 
-import com.example.health.Health_404BE.entity.AuthRequest;
-import com.example.health.Health_404BE.util.JwtUtil;
+import com.smart_health.entity.AuthRequest;
+import com.smart_health.util.JwtUtil;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;

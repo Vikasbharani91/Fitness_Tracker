@@ -1,4 +1,4 @@
-package com.example.health.Health_404BE.util;
+package com.smart_health.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

@@ -1,7 +1,7 @@
-package com.example.health.Health_404BE;
+package com.smart_health;
 
-import com.example.health.Health_404BE.entity.User;
-import com.example.health.Health_404BE.repository.UserRepository;
+import com.smart_health.entity.User;
+import com.smart_health.repository.UserRepository;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;
 import org.springframework.beans.factory.annotation.Autowired;

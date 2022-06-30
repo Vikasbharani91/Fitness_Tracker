@@ -1,4 +1,4 @@
-package com.example.health.Health_404BE.controller;
+package com.smart_health.controller;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
