@@ -1,7 +1,7 @@
-package com.smart_health.config;
+package com.smarthealth.config;
 
-import com.smart_health.filter.JwtFilter;
-import com.smart_health.service.CustomUserDetailsService;
+import com.smarthealth.filter.JwtRequestFilter;
+import com.smarthealth.service.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,7 +9,6 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.BeanIds;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
-import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
@@ -22,17 +21,14 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     private static final String[] apis = {
-            "/",
-            "/login",
-            "/h2-console/**",
-            "/fitworld/**",
+            "/health/**",
     };
 
     @Autowired
     private CustomUserDetailsService userDetailsService;
 
     @Autowired
-    private JwtFilter jwtFilter;
+    private JwtRequestFilter jwtRequestFilter;
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
@@ -51,34 +47,19 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     @Override
-    public void configure(WebSecurity web) {
-        web.ignoring().antMatchers("/v3/api-docs",
-                "/swagger-ui.html",
-                "/swagger-ui/**",
-                "/v3/api-docs/**"
-//            "/configuration/ui",
-//            "/swagger-resources/**",
-//            "/configuration/**",
-//            "/webjars/**"
-        );
-    }
-
-    @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
                 .antMatchers(apis)
-                .permitAll()
-                .anyRequest()
                 .authenticated()
-                .and()
-                .formLogin().permitAll()
+                .anyRequest()
+                .permitAll()
                 .and()
                 .exceptionHandling().and().sessionManagement()
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS);
         http.csrf().disable();
         http.headers().frameOptions().disable();
-        http.addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
+        http.addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
 
     }
 }

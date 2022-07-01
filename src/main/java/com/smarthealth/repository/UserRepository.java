@@ -1,6 +1,6 @@
-package com.smart_health.repository;
+package com.smarthealth.repository;
 
-import com.smart_health.entity.User;
+import com.smarthealth.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User,Integer> {

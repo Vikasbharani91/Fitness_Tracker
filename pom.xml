@@ -8,10 +8,10 @@
 		<version>2.6.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example.health</groupId>
-	<artifactId>Smart_Health_404</artifactId>
+	<groupId>com.smart.health</groupId>
+	<artifactId>SmartHealth</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Smart Health 404</name>
+	<name>SmartHealth</name>
 	<description>We are dedicated to helping you to be healthier.</description>
 	<properties>
 		<java.version>1.8</java.version>

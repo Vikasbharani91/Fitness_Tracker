@@ -1,7 +1,7 @@
-package com.smart_health.service;
+package com.smarthealth.service;
 
-import com.smart_health.entity.User;
-import com.smart_health.repository.UserRepository;
+import com.smarthealth.entity.User;
+import com.smarthealth.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

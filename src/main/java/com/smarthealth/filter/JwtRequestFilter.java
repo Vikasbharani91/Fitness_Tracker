@@ -1,7 +1,7 @@
-package com.smart_health.filter;
+package com.smarthealth.filter;
 
-import com.smart_health.service.CustomUserDetailsService;
-import com.smart_health.util.JwtUtil;
+import com.smarthealth.service.CustomUserDetailsService;
+import com.smarthealth.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @Component
-public class JwtFilter extends OncePerRequestFilter {
+public class JwtRequestFilter extends OncePerRequestFilter {
 
     @Autowired
     private JwtUtil jwtUtil;

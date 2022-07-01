@@ -1,4 +1,4 @@
-package com.smart_health.entity;
+package com.smarthealth.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,7 +12,7 @@ import javax.persistence.Table;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "USER_TBL")
+@Table(name = "users")
 public class User {
     @Id
     private int id;
