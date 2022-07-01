@@ -16,11 +16,11 @@ public class HealthData {
     @Column(name="COUNT")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int healthDataCount;
-    int height;
+    double height;
     int steps;
     int bpm;
-    int bloodGluscose;
-    int weight;
+    double bloodGluscose;
+    double weight;
     String bp;
-    int bmi;
+    double bmi;
 }
