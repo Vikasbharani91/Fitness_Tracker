@@ -20,10 +20,6 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-    private static final String[] apis = {
-            "/health/**",
-    };
-
     @Autowired
     private CustomUserDetailsService userDetailsService;
 
@@ -50,7 +46,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
-                .antMatchers(apis)
+                .antMatchers("/health/**")
                 .authenticated()
                 .anyRequest()
                 .permitAll()
