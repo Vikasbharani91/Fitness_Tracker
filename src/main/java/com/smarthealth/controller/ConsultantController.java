@@ -3,6 +3,7 @@ package com.smarthealth.controller;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,6 +14,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 @RestController
+@CrossOrigin(origins = {"http://localhost:3000", "https://main.d3mrx3tpmlgw1i.amplifyapp.com/"})
 public class ConsultantController {
     File directory = new File("./src/main/resources");
     ObjectMapper objectMapper = new ObjectMapper();
