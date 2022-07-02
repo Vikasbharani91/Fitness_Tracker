@@ -19,7 +19,7 @@ public class HealthData {
     double height;
     int steps;
     int bpm;
-    double bloodGluscose;
+    double bloodGlucose;
     double weight;
     String bp;
     double bmi;
