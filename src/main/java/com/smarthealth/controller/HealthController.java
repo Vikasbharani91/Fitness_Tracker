@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("health")
-@CrossOrigin(origins = {"http://localhost:3000", "https://main.d3mrx3tpmlgw1i.amplifyapp.com/"})
+@CrossOrigin(origins = "*")
 public class HealthController {
 
     @Autowired

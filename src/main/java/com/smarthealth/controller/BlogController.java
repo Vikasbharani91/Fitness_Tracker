@@ -14,7 +14,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000", "https://main.d3mrx3tpmlgw1i.amplifyapp.com/"})
+@CrossOrigin(origins = "*")
 public class BlogController {
     File directory = new File("./src/main/resources");
     ObjectMapper objectMapper = new ObjectMapper();
